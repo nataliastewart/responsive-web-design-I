@@ -259,3 +259,21 @@ h1 {
 footer {
   text-align: center;
 }
+
+
+/* ------ Starts here Media Queries-----*/
+
+/*---mobile---*/
+
+@media (max-width:500px){
+
+
+}
+
+
+/*---table---*/
+
+@media(max-width:800px){
+
+}
+
