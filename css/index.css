@@ -267,7 +267,11 @@ footer {
   text-align: center;
 }
 
+
+
+
 hr{
+    display:none;
     border-style: solid black;  
    /* 1px solid black;  */
 }
@@ -315,7 +319,8 @@ hr{
 
 .conteiner{
     width: 600px;
-    background-color: lightgreen;
+  
+    margin: 0 5%;
 }
 
 .middle-img{
@@ -329,6 +334,13 @@ hr{
     justify-content: space-evenly;
 }
 
+hr{
+    display:none;
+}
+
+
+
+
 }
 
 /*---mobile---*/
@@ -337,21 +349,31 @@ hr{
 
     body{
     width:100%;
-    background-color: pink;
+  
     }
 
 nav {
     width: 100%;
-    background-color: lightblue;
+    
     display: flex;
-    
-    
+     
 }
+
+
+.linkss a{
+    height:1px;
+    /* margin: 1px 0 1px 0; */
+    padding:15px 0 ;
+    display:flex;
+    align-items: center;
+}
+
 
 .linkss{
     display: flex;
     flex-direction: column;
     align-items: center;
+  
     
     
 }
@@ -365,7 +387,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: lightslategray;
+  
     
 
 }
@@ -405,6 +427,19 @@ nav {
 .vision{
     width: 100%;
     margin-bottom:5%; 
+}
+
+hr{
+    display:flex;
+    border-style: solid black; 
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+
+.intro button{
+    width: 35%;
+    height: 25px;
 }
 
 
