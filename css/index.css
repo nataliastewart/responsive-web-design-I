@@ -231,6 +231,7 @@ h1 {
   justify-content: space-between;
   text-align: left;
   padding-top: 10px;
+  border-bottom:1px solid black;
 }
 
 .services {
@@ -302,12 +303,13 @@ hr {
 
   .bottom {
     width: 100%;
+    border-bottom:1px solid black;
+    padding-bottom: 5%;
   }
 
   .conteiner {
-    width: 600px;
-
-    margin: 0 5%;
+    width: 90%;
+    margin:0 auto;
   }
 
   .middle-img {
@@ -318,6 +320,8 @@ hr {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    border-top: 1px solid black;
+    padding-top: 5%;
   }
 
   .features {
@@ -327,6 +331,11 @@ hr {
   hr {
     display: none;
   }
+
+.contact{
+  padding-top: 5%;
+}
+
 }
 
 /*---mobile---*/
